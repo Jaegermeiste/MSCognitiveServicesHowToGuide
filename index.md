@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## How-To Guide for using Microsoft Cognitive Services
 
-You can use the [editor on GitHub](https://github.com/Jaegermeiste/MSCognitiveServicesHowToGuide/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Microsoft Azure Cognitive Servcices is a colleciton of APIs that, when combined, enable intelligent user interacitons and insights into content.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To demonstrate Cognitive Services, this guide will walk through the creation of a Video Indexer API account.
 
-### Markdown
+### Video Indexer
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jaegermeiste/MSCognitiveServicesHowToGuide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Video Indexer combines several existing Cognitive Services tools to generate insights about the content of a video, including (but not limited to) facial recognition, speech-to-text transcripts, emotion analysis, and keyword recognition. In essence, it aggregates several existing Cognitive Services APIs such as the Face API, Speech-to-Text API, Speaker Recognition API, Text Analytics API, and the Bing Search API.
