@@ -1,3 +1,5 @@
+[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[Account Creation]|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
+
 ## Microsoft Azure Account Creation
 Begin at [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/1.png)
@@ -58,3 +60,5 @@ This will return you to the Profile page, but now you have API keys for the Vide
 Note that your new subscription to the Video Indexer is listed under Subscriptions. You can show or hide you API keys as you desire, or regenerate them. Copy your Primary Key to a safe place, as it will be needed moving forward.
 
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/16.png)
+
+Move on to File Uploads: [File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
