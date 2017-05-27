@@ -1,5 +1,5 @@
 ## Microsoft Azure Account Creation
-Begin at ![https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
+Begin at [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/1.png)
 Click the appropriate button for the account you want to log in with. Use a Google or Microsoft Account.
 This will bring you to the relevant sign in screen.
@@ -15,7 +15,7 @@ If you do not have an account, follow the link and instructions provided to crea
 
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/5.png)
 
-Now go to ![https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin) 
+Now go to [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin) 
 
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/6.png)
 
