@@ -16,6 +16,8 @@ Using node.js and request, we can build a simple JavaScript application that sub
 > NOTE: Unfortunately, this cannot be done client-side (or in a JSFiddle) because the API does not return a CORS header and the browser will error with 
 > ``` Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. ```
 
+Node.js and request are better explained elsewhere, but in a nutshell, [Node.js](https://nodejs.org/en/) is a JavaScript runtime primarily intended for server-side applications and [request](https://github.com/request/request) is a package built on that runtime that allows the construction of [POST and GET HTTP requests](https://www.w3schools.com/tags/ref_httpmethods.asp).
+
 First we need to build a POST object. Most of the variables are submitted as if this were a GET request (in the URL); however, the Content Type and API Key fields must be submitted in the POST header. The latter requirement is for security through obfuscation and applies to every request we make of the API, whether it is a POST or GET request.
 
 ```javascript 
