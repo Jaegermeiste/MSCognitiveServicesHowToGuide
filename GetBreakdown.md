@@ -3,6 +3,46 @@
 ## Obtaining the Breakdown
 The breakdown is the interesting data available after the processing is complete. A breakdown consists of various elements, all of which represent potentially interesting pieces of data about the uploaded video.
 
+As before, we build a GET request with the ID:
+```javascript
+// id would have been updated/set by the File Upload API call.
+var id = "28d53fb324";
+
+var breakdownOptions = {
+            url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns/" + id,
+            headers: {
+                "Ocp-Apim-Subscription-Key": APIkey
+            },
+            method: "GET",
+        };
+```
+
+And a callback to handle the data:
+```javascript
+function VideoIndexerStatusCallback(error, response, body) {
+        if (!error && response.statusCode < 400) {
+            var vi = JSON.parse(body);
+            console.log(vi);
+
+            // Here, you can do whatever you wish with the returned data.
+            var context = {};
+
+            context.name = vi.name;
+            context.id = vi.id;
+            context.createTime = vi.createTime;
+            context.privacyMode = vi.privacyMode;
+            context.duration = vi.durationInSeconds;
+            context.thumbnailURL = vi.breakdowns[0].thumbnailUrl;
+            context.breakdown = vi.breakdowns[0];
+
+            res.render('statusresult', context);
+        }
+        else {
+            var vi = JSON.parse(body);
+            console.log(vi);
+        }
+```
+
 The JSON response is extremely extensive:
 ```json
 {
