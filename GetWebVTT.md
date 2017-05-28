@@ -40,7 +40,7 @@ Then send the request:
 request(captionOptions, VideoIndexerWebVTTCallback);
 ```
 
-The response will be a single line string with the donwload URL contained:
+The response will be a single line string with the download URL contained:
 ```url
 https://www.videoindexer.ai/Api/Widget/Breakdowns/28d53fb324/28d53fb324/Vtt
 ```
