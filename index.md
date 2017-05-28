@@ -24,3 +24,5 @@ Read more about Video Indexer at the following links:
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation">
     <input type="submit" value="Account Creation >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
