@@ -133,5 +133,5 @@ way.
 WebVTT captions can be used natively in many browsers or converted to more robust sidecar formats such as SMPTE-TT (TTML, see [https://www.smpte.org/sites/default/files/st2052-1-2010.pdf](https://www.smpte.org/sites/default/files/st2052-1-2010.pdf)) for television broadcast usage.
 
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
-    <input type="submit" value="Get Widget URLs >" />
+    <input type="submit" value="Get Widgets >" />
 </form>
