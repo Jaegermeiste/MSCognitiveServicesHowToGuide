@@ -1,4 +1,4 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|**Account Creation**|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
+[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|**Account Creation**|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
 
 ## Microsoft Azure Account Creation
 Begin at [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
