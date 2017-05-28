@@ -27,7 +27,7 @@ function VideoIndexerProgressCallback(error, response, body) {
 
                 var context = {};
 
-                context.id - id;
+                context.id = id;
                 context.state = vi.state;
                 context.progress = vi.progress;
 
