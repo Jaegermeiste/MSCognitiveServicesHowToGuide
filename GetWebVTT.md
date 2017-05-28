@@ -3,6 +3,8 @@
 
 ## Retrieving Closed Captions
 
+Closed captioning is not an exciting subject. Conceptually, captioning is easy: generate (either automatically or by human transcription) timestamped text and display it in an overlay while a video plays. Logistically, it is difficult, in part because of decisions dating back to the introduction of closed captions in the [late 1970's-early 1980's](http://www.ncicap.org/about-us/history-of-closed-captioning/). The [FCC mandates](https://www.fcc.gov/consumers/guides/captioning-internet-video-programming) closed captioning for web streams in certain cases, and so automatic and reliable (80% accurate or better) captions are necessary to achieve complaince with the vast archive of existing web video media. What are known as sidecar files in the [WebVTT](http://www.w3.org/TR/webvtt1/) format are provided by the Azure Video Indexer API. WebVTT captions can be used natively in many browsers or converted to more robust professional mezzanine sidecar formats such as SMPTE-TT (TTML, see [https://www.smpte.org/sites/default/files/st2052-1-2010.pdf](https://www.smpte.org/sites/default/files/st2052-1-2010.pdf)) for television broadcast usage.
+
 As before, we build a GET request with the ID. This is almost identical to the breakdown request, with the addition of "/VttUrl" to the end of the API request URL:
 ```javascript
 // id would have been updated/set by the File Upload API call.
@@ -17,7 +19,7 @@ var captionOptions = {
         };
 ```
 
-And a callback to handle the data:
+And yet another callback to handle the data:
 ```javascript
 function VideoIndexerWebVTTCallback(error, response, body) {
         if (!error && response.statusCode < 400) {
@@ -46,9 +48,9 @@ The response will be a single line string with the download URL contained:
 https://www.videoindexer.ai/Api/Widget/Breakdowns/28d53fb324/28d53fb324/Vtt
 ```
 
-This file, if downloaded, contained timed text closed captions in the WebVTT format, primarily useful for accessibility. Each caption has a start (on) and end (off) time, during which any associated text should be displayed. Read more on WebVTT captioning at [http://www.w3.org/TR/webvtt1/](http://www.w3.org/TR/webvtt1/)
+This file, if downloaded, contained timed text closed captions in the WebVTT format, primarily useful for accessibility. Each caption has a start (on) and end (off) time, during which any associated text should be displayed. Read more on WebVTT captioning at [http://www.w3.org/TR/webvtt1/](http://www.w3.org/TR/webvtt1/).
 
-The contents of the WebVTT for our Big Buck Bunny video are limited, because the 1 minute clip has no significant speech.
+The contents of the WebVTT for our Big Buck Bunny video are limited, because the 1 minute clip has no significant speech. Note that blank captions are created for the speechless gaps, and that the API mistakenly assumed various background noises were speech (There is no speech in the 1 minute segment).
 ```
 WEBVTT
 
@@ -131,7 +133,7 @@ but military kids are strong army strong airborne all the
 00:00:55.711 --> 00:00:56.000
 way.
 ```
-WebVTT captions can be used natively in many browsers or converted to more robust sidecar formats such as SMPTE-TT (TTML, see [https://www.smpte.org/sites/default/files/st2052-1-2010.pdf](https://www.smpte.org/sites/default/files/st2052-1-2010.pdf)) for television broadcast usage.
+This second set of captions is not perfect, but is readable and understandable, and exceeds the 80% accuracy threshold for captoning accuracy, so could be used as-is.
 
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets">
     <input type="submit" value="Get Widgets >" />
