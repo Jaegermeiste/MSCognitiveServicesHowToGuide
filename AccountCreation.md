@@ -68,3 +68,5 @@ Note that your new subscription to the Video Indexer is listed under Subscriptio
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload">
     <input type="submit" value="File Upload >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
