@@ -50,4 +50,6 @@ request(uploadOptions, VideoIndexerUploadCallback);
 
 When the callback is called, the API will respond with a single value like ```28d53fb324```. Store that value for later (as in the callback).
 
-Move on to [Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
+<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState">
+    <input type="submit" value="Processing State >" />
+</form>
