@@ -13,7 +13,23 @@ Using node.js and request, we can build a simple JavaScript application that sub
 
 First we need to build a POST object. Most of the variables are submitted as if this were a GET request (in the URL); however, the Content Type and API Key fields must be submitted in the POST header.
 
-<script async src="//jsfiddle.net/cs290sp2017howtoguide/x1t68y3h/embed/js/dark/"></script>
+```javascript 
+// The below variables could be collected from a form, or hardcoded as seen here 
+var APIkey = 'YourAPIKeyHere'; 
+var videoName = "Big Buck Bunny"; 
+var videoURL = "https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4"; 
+var videoDesc = "Submitted via POST request to REST API"; 
+ 
+// This uploadOptions object will be submitted in the request. Effectively, it represents the HTTP request header. 
+var uploadOptions = { 
+            url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns?name=" + videoName + "&privacy=public&videoURL=" + videoURL + "&description=" + videoDesc, 
+            headers: { 
+                "Content-Type": "multipart/form-data", 
+                "Ocp-Apim-Subscription-Key": APIkey 
+            }, 
+            method: "POST", 
+        }; 
+``` 
 
 Next, we need a request callback function. This function can be fairly simple, as the File Upload API will only return an identifying hash code like ```28d53fb324```.
 
