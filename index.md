@@ -13,4 +13,3 @@ Video Indexer combines several existing Cognitive Services tools to generate ins
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation">
     <input type="submit" value="Account Creation >" />
 </form>
-<button type="button">Move on to [Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)</button>
