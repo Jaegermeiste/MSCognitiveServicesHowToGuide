@@ -48,6 +48,10 @@ The response will be a single line string with the player embed URL contained:
 ```url
 https://www.videoindexer.ai/embed/player/28d53fb324
 ```
+Embedding the widget results in this:
+<video>
+<source src="https://www.videoindexer.ai/embed/player/28d53fb324" type="video/mp4">
+</video>
 
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
