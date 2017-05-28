@@ -99,6 +99,6 @@ https://www.videoindexer.ai/embed/insights/28d53fb324
 Embedding the widget results in this:
 <iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324" width="800" height="450"></iframe>
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
-    <input type="submit" value="Get Widget URLs >" />
+<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview">
+    <input type="submit" value="Account Overview >" />
 </form>
