@@ -1,4 +1,5 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|**Get Breakdown**|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)
+**Get Breakdown**|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Obtaining the Breakdown
 The breakdown is the interesting data available after the processing is complete. A breakdown consists of various elements, all of which represent potentially interesting pieces of data about the uploaded video.
@@ -1171,6 +1172,6 @@ The JSON response is extremely extensive (as below). It is very unwieldy but con
 }
 ```
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT">
+<form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT">
     <input type="submit" value="Get Closed Captions >" />
 </form>
