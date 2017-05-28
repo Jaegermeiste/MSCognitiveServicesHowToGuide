@@ -3,7 +3,7 @@
 
 ## Obtaining the Processing State
 
-Once a video breakdown id has been obtained from the Video Indexer API (like ```28d53fb324```), the processing is not instantaneous. We can obtain the state of the processing by building a GET request. This is constructed similarly to the POST request used for File Upload, but with a different method. The primary reason to do the request this way is because the header must still contain the API key for obfuscation purposes.
+Once a video breakdown id has been obtained from the Video Indexer API (like ```28d53fb324```), the actual video processing is not instantaneous. We can obtain the state of the processing by building a GET request. This is constructed similarly to the POST request used for File Upload, but with a different method. The primary reason to do the request this way is because the header must still contain the API key for obfuscation purposes. Another change is that although this is a get request, we do not pass variables in the URL per se, rather, from this point forward, the video ID becomes part of the path, and the API call is determined by the subfolder appended to that video ID path. In this case, we append ```"/State"``` to get the processing status.
 
 ```javascript
 // id would have been updated by the File Upload API call.
@@ -18,7 +18,7 @@ var progressOptions = {
                 };
 ```
 
-As with the File Upload, we need a callback to handle the response to the API call.
+As with the File Upload, we need a callback to handle the response to the API call. The below callback adds some lines not seen in the previous callback. ```context``` is just an object containing an assortment of variables, which we extract from the Azure JSON response. ```res.render('upload', context);``` utlizes a Node.js module called [express-handlebars](https://github.com/ericf/express-handlebars) to display a templated web page to the user containing the result of the progress response. The details of express-handlebars are not germane to this guide, but it is important to show that you would normally provide visible feedback to a user to show that things are moving in the background. 
 
 ```javascript
 function VideoIndexerProgressCallback(error, response, body) {
