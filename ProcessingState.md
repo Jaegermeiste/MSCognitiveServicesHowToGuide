@@ -49,7 +49,7 @@ The API will return a JSON object initially similar to:
   "progress": "" 
 }
 ```
-A later call would return a JAOS object like this:
+A later call would return a JSON object like this:
 ```json
 { 
   "state": "Processing", 
