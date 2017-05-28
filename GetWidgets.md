@@ -112,3 +112,5 @@ At this point, we have replicated all significant functionality of the VideoInde
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview">
     <input type="submit" value="Account Overview >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
