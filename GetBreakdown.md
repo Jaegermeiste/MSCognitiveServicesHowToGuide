@@ -8,7 +8,11 @@ Breakdowns are composed of the following conceptual sub-objects:
 - Faces: Facial recognition identifies different people in the video. If the person is famous, it will positively identify them, otherwise, it will mark them as unknown.
 - Sentiments: The tone of the video (per person as appropriate). The Big Buck Bunny segment is "Neutral" all the way through, but in a different segment the Cognitive Services engine would mark appropriate segments as "Angry" or "Happy" as appropriate.
 - Topics/Keywords/Annotations: The API will attempt to identify underlying themes of the video to facilitate keyword searching, as well as noting significant objects when they appear in the video. In the Big Buck Bunny clip, it found "tree", "grass", "outdoor", "laying", "sky", and "person", giving the apporpriate timestams for the start and stop of each (multiple times, as appropriate).
-- Content Moderation - the likelihood of adult content. Obviously the Big Buck Bunny clip is child-friendly, but many other videos are not. The content moderation engine searches for bad words and naughty imagery. More details on how the content moderation engine works is available at [https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/). 
+- Content Moderation: the likelihood of adult content. Obviously the Big Buck Bunny clip is child-friendly, but many other videos are not. The content moderation engine searches for bad words and naughty imagery. More details on how the content moderation engine works is available at [https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/). 
+- Scene and Audio Cue Detection: Potentially useful for intelligent fast-forwarding through video (jump to next scene of interest, etc.)
+- Social: View and Like Counts
+
+Many of the above details are not available in the existing user-facing version of the web GUI provided (and [discussed later](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)). To obtain these details, we must access the API as below.
 
 As before, we build a GET request with the ID. Presumably because this object is the entire point of the API, we do not need to append a subfolder to the URL in order to get the response:
 ```javascript
