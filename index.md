@@ -1,4 +1,5 @@
-**Home**|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
+**Home**|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
+
 ## How-To Guide for using Microsoft Cognitive Services
 
 Microsoft Azure Cognitive Servcices is a colleciton of APIs that, when combined, enable intelligent user interacitons and insights into content.
