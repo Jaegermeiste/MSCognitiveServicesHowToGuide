@@ -4,6 +4,7 @@
 ## Uploading Files to Video Indexer
 
 File Uploads can be accomplished using either binary transfer of data in in the body of a POST submission (multipart/form-data) or via a publicly accessible URL. For this How-To guide, we will use the latter. At the time of this writing, a good publicly accessible video is found at [https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4](https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4).
+NOTE: The Azure API documentation suggests that uploading a file to OneDrive (shared publicly) is a viable option; however, as of this writing, attempting to do so results in a JSON error suggesting that "Partner Uploads" are not working.
 
 <video id="BigBuckBunny" class="video-js vjs-default-skin" controls preload="auto" width="800" height="450">
 <source src="https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type='video/mp4'>
