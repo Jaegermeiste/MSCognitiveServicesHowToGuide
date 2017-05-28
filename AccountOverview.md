@@ -10,3 +10,7 @@ If you return to [https://www.videoindexer.ai/](https://www.videoindexer.ai/), w
 Playing any of the videos uploaded results in a window where both the Player and Insights widgets are present; and they are linked as were the widgets we scripted previously. Clicking on an Insight jumps the Player to the appropriate time, and vice versa.
 
 ![Image](https://jaegermeiste.github.io/VideoIndexerHowToGuide/Assets/AccountOverview/2.PNG)
+
+With this, we have covered all significant aspects of the Azure Cognitive Services Video Indexer API. Other API calls are available, and the API is expanding rapidly - methods implementing search, file deletion, and reindexing (added by Microsoft on 5/28/2017!) and more can be read about these at [Video Indexer API](https://videobreakdown.portal.azure-api.net/docs/services/582074fb0dc56116504aed75/operations/592ac3d50dc56105b44f0608).
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
