@@ -42,3 +42,5 @@ function VideoIndexerUploadCallback(error, response, body) {
             }
         }
 ```
+
+Move on to [Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
