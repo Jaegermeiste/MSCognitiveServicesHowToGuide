@@ -11,6 +11,6 @@ To demonstrate Cognitive Services, this guide will walk through the creation of 
 
 Video Indexer combines several existing Cognitive Services tools to generate insights about the content of a video, including (but not limited to) facial recognition, speech-to-text transcripts, emotion analysis, and keyword recognition. In essence, it aggregates several existing Cognitive Services APIs such as the Face API, Speech-to-Text API, Speaker Recognition API, Text Analytics API, and the Bing Search API.
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation">
+<form action="/AccountCreation">
     <input type="submit" value="Account Creation >" />
 </form>
