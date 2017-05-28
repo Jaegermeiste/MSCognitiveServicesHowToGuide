@@ -4,7 +4,13 @@
 ## Obtaining the Breakdown
 The breakdown is the interesting data available after the processing is complete. A breakdown consists of various elements, all of which represent potentially interesting pieces of data about the uploaded video.
 
-As before, we build a GET request with the ID:
+Breakdowns are composed of the following conceptual sub-objects:
+- Faces: Facial recognition identifies different people in the video. If the person is famous, it will positively identify them, otherwise, it will mark them as unknown.
+- Sentiments: The tone of the video (per person as appropriate). The Big Buck Bunny segment is "Neutral" all the way through, but in a different segment the Cognitive Services engine would mark appropriate segments as "Angry" or "Happy" as appropriate.
+- Topics/Keywords/Annotations: The API will attempt to identify underlying themes of the video to facilitate keyword searching, as well as noting significant objects when they appear in the video. In the Big Buck Bunny clip, it found "tree", "grass", "outdoor", "laying", "sky", and "person", giving the apporpriate timestams for the start and stop of each (multiple times, as appropriate).
+- Content Moderation - the likelihood of adult content. Obviously the Big Buck Bunny clip is child-friendly, but many other videos are not. The content moderation engine searches for bad words and naughty imagery. More details on how the content moderation engine works is available at [https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/). 
+
+As before, we build a GET request with the ID. Presumably because this object is the entire point of the API, we do not need to append a subfolder to the URL in order to get the response:
 ```javascript
 // id would have been updated/set by the File Upload API call.
 var id = "28d53fb324";
@@ -18,7 +24,7 @@ var breakdownOptions = {
         };
 ```
 
-And a callback to handle the data:
+And a callback to handle the data. As before, this callback leverages express-handlebars to display relevant variables from the response to the user:
 ```javascript
 function VideoIndexerStatusCallback(error, response, body) {
         if (!error && response.statusCode < 400) {
@@ -49,7 +55,7 @@ Then send the request:
 request(breakdownOptions, VideoIndexerStatusCallback);
 ```
 
-The JSON response is extremely extensive (as below). It is very unwieldy but contains all the salient information about the video. Luckily, there is a much more user-friendly way to handle this data that will be examined after we explore Closed Captions.
+The JSON response is extremely extensive (as below). It is *very* unwieldy but contains all the salient information about the video. Luckily, there is a much more user-friendly way to handle this data that will be examined after we explore Closed Captions.
 
 ```json
 {
