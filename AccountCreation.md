@@ -2,6 +2,9 @@
 [Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Microsoft Azure Account Creation
+
+> NOTE: The Video Indexer is currently free as of this writing, but may change in the future: [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/video-indexer/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/video-indexer/). There may be limits imposed on free accounts (no more than 10 videos allowed, no more than 10 minutes per video, etc.).
+
 Begin at [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
 ![Image](https://jaegermeiste.github.io/VideoIndexerHowToGuide/Assets/AccountCreation/1.png)
 Click the appropriate button for the account you want to log in with. Use a Google or Microsoft Account.
