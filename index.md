@@ -14,6 +14,7 @@ Video Indexer combines several existing Cognitive Services tools to generate ins
 In the time taken to develop this How-To Guide, the official documentation has improved significantly and several bugs have been ironed out in the API itself (originally, all video uploads failed unceremoniously). Some basic documentation is still missing - for example, supported video types are undocumented. MP4 videos work, so we will use those for this guide.
 
 Read more about Video Indexer at the following links:
+- [Azure Blog](https://azure.microsoft.com/en-us/blog/introducing-video-indexer-a-cloud-service-to-unlock-insights-from-your-videos/)
 - [Video Indexer](https://vi.microsoft.com/)
 - [Azure Cognitive Services Video Indexer](https://azure.microsoft.com/en-us/services/cognitive-services/video-indexer/)
 - [Azure Cognitive Services Video Indexer Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview).
