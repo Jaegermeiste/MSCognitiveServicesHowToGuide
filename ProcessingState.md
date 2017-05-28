@@ -68,3 +68,5 @@ Eventually, when processing is complete, the API will return this:
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown">
     <input type="submit" value="Get Breakdown >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
