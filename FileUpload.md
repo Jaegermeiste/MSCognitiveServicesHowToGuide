@@ -30,3 +30,15 @@ var uploadOptions = {
             method: "POST",
         };
 ```
+Next, we need a request callback function. This function can be fairly simple, as the File Upload API will only return an identifying hash code like ```28d53fb324```.
+
+```javascript
+var id;     // Will be like 28d53fb324
+
+function VideoIndexerUploadCallback(error, response, body) {
+            if (!error && response.statusCode < 400) {
+                id = JSON.parse(body);
+                console.log(id);
+            }
+        }
+```
