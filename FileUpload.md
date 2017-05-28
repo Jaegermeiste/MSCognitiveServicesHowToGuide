@@ -14,8 +14,13 @@ Using node.js and request, we can build a simple JavaScript application that sub
 First we need to build a POST object. Most of the variables are submitted as if this were a GET request (in the URL); however, the Content Type and API Key fields must be submitted in the POST header.
 
 ```javascript
+var APIkey = 'YourAPIKeyHere';
+var videoName = "Big Buck Bunny";
+var videoURL = "https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4";
+var videoDesc = "Submitted via POST request to REST API";
+
 var uploadOptions = {
-            url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns?name=" + req.body.videoName + "&privacy=public&videoURL=" + req.body.videoURL + "&description=" + req.body.videoDesc,
+            url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns?name=" + videoName + "&privacy=public&videoURL=" + videoURL + "&description=" + videoDesc,
             headers: {
                 "Content-Type": "multipart/form-data",
                 "Ocp-Apim-Subscription-Key": APIkey
