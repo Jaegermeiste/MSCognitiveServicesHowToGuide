@@ -3,7 +3,9 @@
 
 ## Uploading Files to Video Indexer
 
-File Uploads can be accomplished using either binary transfer of data in in the body of a POST submission (multipart/form-data) or via a publicly accessible URL. For this How-To guide, we will use the latter. At the time of this writing, a good publicly accessible video is found at [https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4](https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4).
+File Uploads can be accomplished using either binary transfer of data in in the body of a POST submission (multipart/form-data) or via a publicly accessible URL. For this How-To guide, we will use the latter. At the time of this writing, a good publicly accessible video URL is found at [https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4](https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4).
+
+If you wish to host your own videos at a public URL, high-resolution (and full length) versions of Big Buck Bunny are located at [http://bbb3d.renderfarming.net/download.html](http://bbb3d.renderfarming.net/download.html). The Defense Video Imagery Distribution System [DVIDSHub](https://www.dvidshub.net/) is also a good clearinghouse for public domain video (requires a sign-in). Neither of those links contain video URLs directly accessible to Azure, so if you use them you'll have to host them yourself.
 
 > NOTE: The Azure API documentation suggests that uploading a file to OneDrive (shared publicly) is a viable option; however, as of this writing, attempting to do so results in a JSON error suggesting that "Partner Uploads" are not working.
 
