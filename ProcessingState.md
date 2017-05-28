@@ -42,15 +42,26 @@ Finally, we can call the API.
 request(progressOptions, VideoIndexerProgressCallback);
 ```
 
-The API will eventually return a JSON object similar to:
+The API will return a JSON object initially similar to:
 ```json
-{ "state": "Uploaded", 
-  "progress": "" }
+{ 
+  "state": "Uploaded", 
+  "progress": "" 
+}
 ```
-or
+A later call would return a JAOS object like this:
 ```json
-{ "state": "Processing", 
-  "progress": "15%" }
+{ 
+  "state": "Processing", 
+  "progress": "15%" 
+}
+```
+Eventually, when processing is complete, the API will return this:
+```json
+{
+  "state": "Processed",
+  "progress": ""
+}
 ```
 
 Move on to [Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
