@@ -5,7 +5,7 @@
 
 File Uploads can be accomplished using either binary transfer of data in in the body of a POST submission (multipart/form-data) or via a publicly accessible URL. For this How-To guide, we will use the latter. At the time of this writing, a good publicly accessible video is found at [https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4](https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4).
 
-NOTE: The Azure API documentation suggests that uploading a file to OneDrive (shared publicly) is a viable option; however, as of this writing, attempting to do so results in a JSON error suggesting that "Partner Uploads" are not working.
+> NOTE: The Azure API documentation suggests that uploading a file to OneDrive (shared publicly) is a viable option; however, as of this writing, attempting to do so results in a JSON error suggesting that "Partner Uploads" are not working.
 
 <video id="BigBuckBunny" class="video-js vjs-default-skin" controls preload="auto" width="800" height="450">
 <source src="https://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type='video/mp4'>
@@ -13,7 +13,7 @@ NOTE: The Azure API documentation suggests that uploading a file to OneDrive (sh
 
 
 Using node.js and request, we can build a simple JavaScript application that submits the public URL to Azure for processing. 
-NOTE: Unfortunately, this cannot be done client-side (or in a JSFiddle) because the API does not return a CORS header and the browser will error with
+> NOTE: Unfortunately, this cannot be done client-side (or in a JSFiddle) because the API does not return a CORS header and the browser will error with
 ```
 Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
