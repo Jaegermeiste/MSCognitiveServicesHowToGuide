@@ -1,4 +1,5 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|**Get Widgets**|[Account Overview](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)
+[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|**Get Widgets**|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Obtaining Interface Widgets
 
@@ -99,6 +100,6 @@ https://www.videoindexer.ai/embed/insights/28d53fb324
 Embedding the widget results in this:
 <iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324" width="800" height="450"></iframe>
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview">
+<form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview">
     <input type="submit" value="Account Overview >" />
 </form>
