@@ -1,4 +1,4 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|**Get Widget URLs**
+ [Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|**Get Widget URLs**
 
 ## Obtaining Interface Widgets
 
@@ -49,7 +49,7 @@ The response will be a single line string with the player embed URL contained:
 https://www.videoindexer.ai/embed/player/28d53fb324
 ```
 Embedding the widget results in this:
-<iframe src="https://www.videoindexer.ai/embed/player/28d53fb324"></iframe>
+<iframe src="https://www.videoindexer.ai/embed/player/28d53fb324" width="640" height="360"></iframe>
 
 The second widget is more interesting. It provides access to (some of) the actual analysis results in a user firendly manner.
 
@@ -97,7 +97,7 @@ https://www.videoindexer.ai/embed/insights/28d53fb324
 ```
 
 Embedding the widget results in this:
-<iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324"></iframe>
+<iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324" width="640" height="360"></iframe>
 
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
