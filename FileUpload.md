@@ -60,7 +60,7 @@ Then we can send the request, which takes the options object and callback functi
 request(uploadOptions, VideoIndexerUploadCallback);
 ```
 
-The request will complete (effectively) instantaneously. Once Azure processes the upload (or errors out), a response will be sent to the server and the callback function will be called to handle the response. When the callback is called, and assuming the upload request was successful, the API will respond with a single value like ```28d53fb324```. That value is a GUID for the uploaded video breakdown. Store the value for later (done in the callback).
+The request will complete (effectively) instantaneously. Once Azure processes the upload *request* (or errors out), a response will be sent to the server and the callback function will be called to handle the response. To be clear, Azure will send a response once the upload request has been received and it handles it - this is not the same as the actual upload being complete or the cognitive analysis being complete. When the callback is called, and assuming the upload request was successful, the API will respond with a single value like ```28d53fb324```. That value is a GUID for the uploaded video breakdown. Store the value for later (done in the callback).
 
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState">
     <input type="submit" value="Processing State >" />
