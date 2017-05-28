@@ -64,4 +64,6 @@ Eventually, when processing is complete, the API will return this:
 }
 ```
 
-Move on to [Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
+<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown">
+    <input type="submit" value="Get Breakdown >" />
+</form>
