@@ -43,11 +43,11 @@ request(progressOptions, VideoIndexerProgressCallback);
 ```
 
 The API will eventually return a JSON object similar to:
-```json
+```javascript
 { state: 'Uploaded', progress: '' }
 ```
 or
-```json
+```javascript
 { state: 'Processing', progress: '15%' }
 ```
 
