@@ -61,4 +61,4 @@ Note that your new subscription to the Video Indexer is listed under Subscriptio
 
 ![Image](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/Assets/AccountCreation/16.png)
 
-Move on to File Uploads: [File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
+Move on to [File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)
