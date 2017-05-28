@@ -2,7 +2,7 @@
 
 ## How-To Guide for using Microsoft Cognitive Services
 
-Microsoft Azure Cognitive Servcices is a colleciton of APIs that, when combined, enable intelligent user interacitons and insights into content.
+Microsoft Azure Cognitive Services is a collection of APIs that, when combined, enable intelligent user interactions and insights into content.
 
 To demonstrate Cognitive Services, this guide will walk through the creation of a Video Indexer API account.
 
