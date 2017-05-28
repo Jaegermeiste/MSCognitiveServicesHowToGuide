@@ -72,6 +72,66 @@ Non.
 00:00:47.020 --> 00:01:00.000
 ```
 
+Much more interesting captions are available from a different video (id=2fe32f6540):
+```tap
+WEBVTT
+
+00:00:00.000 --> 00:00:03.790
+April is a month or the military child and all
+
+00:00:03.873 --> 00:00:05.850
+of us who have children.
+
+00:00:05.850 --> 00:00:09.490
+That are in the military know that their sacrifices.
+
+00:00:09.490 --> 00:00:13.337
+Those children pay a tremendous price for being in a
+
+00:00:13.411 --> 00:00:18.220
+military family and we as military service member Pate tremendous
+
+00:00:18.294 --> 00:00:19.330
+price as well.
+
+00:00:19.330 --> 00:00:23.570
+We miss the school plays we miss the school games
+
+00:00:23.656 --> 00:00:25.560
+we missed tournaments.
+
+00:00:25.560 --> 00:00:31.140
+We may miss graduations. The parent-teachers conferences that we miss.
+
+00:00:31.140 --> 00:00:34.456
+It is truly a sacrificed that way is military members
+
+00:00:34.518 --> 00:00:37.959
+and military children pay suit so to all those military
+
+00:00:38.021 --> 00:00:39.210
+children out there.
+
+00:00:39.210 --> 00:00:42.910
+Thank you. Thank you very much for allowing your parents
+
+00:00:42.976 --> 00:00:45.685
+to do what they love to do and that serve
+
+00:00:45.751 --> 00:00:48.790
+in America's military from all of us to all of
+
+00:00:48.790 --> 00:00:51.520
+you. We know it's tough,
+
+00:00:51.520 --> 00:00:55.639
+but military kids are strong army strong airborne all the
+
+00:00:55.711 --> 00:00:56.000
+way.
+```
+
+
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
 </form>
