@@ -43,7 +43,13 @@ function VideoIndexerStatusCallback(error, response, body) {
         }
 ```
 
-The JSON response is extremely extensive:
+Then send the request:
+```javascript
+request(breakdownOptions, VideoIndexerStatusCallback);
+```
+
+The JSON response is extremely extensive (as below). It is very unwieldy but contains all the salient information about the video. Luckily, there is a much more user-friendly way to handle this data that will be examined after we explore Closed Captions.
+
 ```json
 {
   "accountId": "695a52c9-3940-44b4-a3eb-9ffe6b636276",
