@@ -67,3 +67,5 @@ The request will complete (effectively) instantaneously. Once Azure processes th
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState">
     <input type="submit" value="Processing State >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
