@@ -3,6 +3,8 @@
 
 ## Obtaining Interface Widgets
 
+<script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script> 
+
 Thus far, we have performed several API requests and retrieved JSON in return. The Breakdown JSON in particular, while detailed, is extremely ungainly. While an enterprising programmer could make use of the JSON data and build an interesting analytics dashboard, wouldn't it be great if the work had already been done for you?
 
 The Video Indexer API provides two major widgets to allow end users to interact with the video data. The first we will examine is the player widget.
@@ -28,7 +30,7 @@ function VideoIndexerPlayerCallback(error, response, body) {
             var vi = JSON.parse(body);
             console.log(vi);
 
-            // Here, you can do whatever you wish with the returned data.
+// Here, you can do whatever you wish with the returned data.
             var context = {};
 
             context.url = vi;
@@ -99,6 +101,11 @@ https://www.videoindexer.ai/embed/insights/28d53fb324
 
 Embedding the widget results in this:
 <iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324" width="800" height="450"></iframe>
+
+To get the widgets to interact with each other, embed the following script:
+```html
+<script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script> 
+```
 
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview">
     <input type="submit" value="Account Overview >" />
