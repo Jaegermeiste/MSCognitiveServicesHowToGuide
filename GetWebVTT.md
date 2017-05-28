@@ -138,3 +138,5 @@ This second set of captions is not perfect, but is readable and understandable, 
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets">
     <input type="submit" value="Get Widgets >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
