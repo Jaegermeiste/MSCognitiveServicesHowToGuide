@@ -2,3 +2,6 @@
 
 ## Obtaining the Breakdown
 
+<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT">
+    <input type="submit" value="Get Closed Captions >" />
+</form>
