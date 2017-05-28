@@ -1,4 +1,5 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|**Get Closed Captions**|[Get Widgets](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)
+[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|**Get Closed Captions**|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Retrieving Closed Captions
 
@@ -132,6 +133,6 @@ way.
 ```
 WebVTT captions can be used natively in many browsers or converted to more robust sidecar formats such as SMPTE-TT (TTML, see [https://www.smpte.org/sites/default/files/st2052-1-2010.pdf](https://www.smpte.org/sites/default/files/st2052-1-2010.pdf)) for television broadcast usage.
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
+<form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets">
     <input type="submit" value="Get Widgets >" />
 </form>
