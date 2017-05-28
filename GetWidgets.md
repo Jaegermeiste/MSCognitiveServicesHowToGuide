@@ -107,6 +107,8 @@ To get the widgets to interact with each other, embed the following script:
 <script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script> 
 ```
 
+At this point, we have replicated all significant functionality of the VideoIndexer.ai portal developed by Microsoft. Next, we will briefly explore that web portal.
+
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview">
     <input type="submit" value="Account Overview >" />
 </form>
