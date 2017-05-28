@@ -1,4 +1,5 @@
-[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|**Account Creation**|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|**Account Creation**|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)
+[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Microsoft Azure Account Creation
 Begin at [https://videobreakdown.portal.azure-api.net/signin](https://videobreakdown.portal.azure-api.net/signin)
