@@ -1,4 +1,4 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|**File Upload**|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
+[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|**File Upload**|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
 
 ## Uploading Files to Video Indexer
 
@@ -42,5 +42,12 @@ function VideoIndexerUploadCallback(error, response, body) {
             }
         }
 ```
+
+Then we can send the request:
+```javascript
+request(uploadOptions, VideoIndexerUploadCallback);
+```
+
+When the callback is called, the API will respond with a single value like ```28d53fb324```. Store that value for later (as in the callback).
 
 Move on to [Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)
