@@ -1,4 +1,5 @@
- [Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|**File Upload**|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation)|**File Upload**|[Processing State](https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState)
+[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Uploading Files to Video Indexer
 
@@ -55,6 +56,6 @@ request(uploadOptions, VideoIndexerUploadCallback);
 
 When the callback is called, the API will respond with a single value like ```28d53fb324```. Store that value for later (as in the callback).
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState">
+<form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/ProcessingState">
     <input type="submit" value="Processing State >" />
 </form>
