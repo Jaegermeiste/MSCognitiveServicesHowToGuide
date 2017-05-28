@@ -1,4 +1,4 @@
-The JSON response is extremely extensive (as below). It is very unwieldy but contains all the salient information about the video. Luckily, there is a much more user-friendly way to handle this data that will be examined after we explore Closed Captions.[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|**Get Closed Captions**|[Get Widget URLs](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)
+[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|[Processing State](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/ProcessingState)|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|**Get Closed Captions**|[Get Widget URLs](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)
 
 ## Retrieving Closed Captions
 
@@ -45,6 +45,9 @@ The response will be a single line string with the donwload URL contained:
 https://www.videoindexer.ai/Api/Widget/Breakdowns/28d53fb324/28d53fb324/Vtt
 ```
 
+This file, if downloaded, contained timed text closed captions in the WebVTT format, primarily useful for accessibility. Each caption has a start (on) and end (off) time, during which any associated text should be displayed. Read more on WebVTT captioning at [http://www.w3.org/TR/webvtt1/](http://www.w3.org/TR/webvtt1/)
+
+The contents of the WebVTT for our Big Blue Bunny video are limited, because the 1 minute clip has no significant talking.
 ```
 WEBVTT
 
