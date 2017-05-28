@@ -47,7 +47,7 @@ https://www.videoindexer.ai/Api/Widget/Breakdowns/28d53fb324/28d53fb324/Vtt
 
 This file, if downloaded, contained timed text closed captions in the WebVTT format, primarily useful for accessibility. Each caption has a start (on) and end (off) time, during which any associated text should be displayed. Read more on WebVTT captioning at [http://www.w3.org/TR/webvtt1/](http://www.w3.org/TR/webvtt1/)
 
-The contents of the WebVTT for our Big Blue Bunny video are limited, because the 1 minute clip has no significant talking.
+The contents of the WebVTT for our Big Buck Bunny video are limited, because the 1 minute clip has no significant speech.
 ```
 WEBVTT
 
@@ -73,7 +73,7 @@ Non.
 ```
 
 Much more interesting captions are available from a different video (id=2fe32f6540):
-```tap
+```
 WEBVTT
 
 00:00:00.000 --> 00:00:03.790
@@ -130,7 +130,7 @@ but military kids are strong army strong airborne all the
 00:00:55.711 --> 00:00:56.000
 way.
 ```
-
+WebVTT captions can be used natively in many browsers or converted to more robust sidecar formats such as SMPTE-TT (TTML, see [https://www.smpte.org/sites/default/files/st2052-1-2010.pdf](https://www.smpte.org/sites/default/files/st2052-1-2010.pdf)) for television broadcast usage.
 
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
