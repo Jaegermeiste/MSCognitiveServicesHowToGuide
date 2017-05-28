@@ -1,4 +1,5 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|**Processing State**|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountOverview)
+[Home](https://jaegermeiste.github.io/VideoIndexerHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/VideoIndexerHowToGuide/FileUpload)|**Processing State**
+[Get Breakdown](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown)|[Get Closed Captions](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT)|[Get Widgets](https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWidgets)|[Account Overview](https://jaegermeiste.github.io/VideoIndexerHowToGuide/AccountOverview)
 
 ## Obtaining the Processing State
 
@@ -64,6 +65,6 @@ Eventually, when processing is complete, the API will return this:
 }
 ```
 
-<form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown">
+<form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetBreakdown">
     <input type="submit" value="Get Breakdown >" />
 </form>
