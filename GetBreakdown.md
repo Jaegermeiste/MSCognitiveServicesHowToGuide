@@ -1185,3 +1185,5 @@ The JSON response is extremely extensive (as below). It is *very* unwieldy but c
 <form action="https://jaegermeiste.github.io/VideoIndexerHowToGuide/GetWebVTT">
     <input type="submit" value="Get Closed Captions >" />
 </form>
+
+(C)2017 Jason George - Email: georgeja at oregonstate.edu
