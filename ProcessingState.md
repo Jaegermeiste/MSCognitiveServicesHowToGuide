@@ -44,11 +44,13 @@ request(progressOptions, VideoIndexerProgressCallback);
 
 The API will eventually return a JSON object similar to:
 ```json
-{ "state": "Uploaded", "progress": "" }
+{ "state": "Uploaded", 
+  "progress": "" }
 ```
 or
 ```json
-{ state: 'Processing', progress: '15%' }
+{ state: "Processing", 
+  progress: "15%" }
 ```
 
 Move on to [Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
