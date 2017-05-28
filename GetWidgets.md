@@ -2,6 +2,10 @@
 
 ## Obtaining Interface Widgets
 
+Thus far, we have performed several API requests and retrieved JSON in return. The Breakdown JSON in particular, while detailed, is extremely ungainly. While an enterprising programmer could make use of the JSON data and build an interesting analytics dashboard, wouldn't it be great if the work had already been done for you?
+
+The Video Indexer API provides two major widgets to allow end users to interact with the video data.
+
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
 </form>
