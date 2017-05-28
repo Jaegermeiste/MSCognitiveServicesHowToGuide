@@ -1,4 +1,4 @@
-[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|**Processing State**
+[Home](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/)|[Account Creation](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/AccountCreation)|[File Upload](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/FileUpload)|**Processing State**|[Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
 
 ## Obtaining the Processing State
 
@@ -6,7 +6,7 @@ Once a video breakdown id has been obtained from the Video Indexer API (like ```
 
 ```javascript
 // id would have been updated by the File Upload API call.
-var id = 28d53fb324;
+var id = "28d53fb324";
 
 var progressOptions = {
                     url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns/" + id + "/State",
@@ -41,3 +41,14 @@ Finally, we can call the API.
 ```javascript
 request(progressOptions, VideoIndexerProgressCallback);
 ```
+
+The API will eventually return a JSON object similar to:
+```json
+{ state: 'Uploaded', progress: '' }
+```
+or
+```json
+{ state: 'Processing', progress: '15%' }
+```
+
+Move on to [Get Breakdown](https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetBreakdown)
