@@ -7,6 +7,6 @@ If you return to [https://www.videoindexer.ai/](https://www.videoindexer.ai/), w
 
 ![Image](https://jaegermeiste.github.io/VideoIndexerHowToGuide/Assets/AccountOverview/1.PNG)
 
-Playing any of the videos uploaded results ina window where both the Player and Ingishts widgets are present; however, in this case, they are linked. Clicking on an Insight jumps the Player to the appropriate time, and vice versa.
+Playing any of the videos uploaded results in a window where both the Player and Insights widgets are present; and they are linked as were the widgets we scripted previously. Clicking on an Insight jumps the Player to the appropriate time, and vice versa.
 
 ![Image](https://jaegermeiste.github.io/VideoIndexerHowToGuide/Assets/AccountOverview/2.PNG)
