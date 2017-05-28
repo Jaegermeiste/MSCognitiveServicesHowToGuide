@@ -49,7 +49,55 @@ The response will be a single line string with the player embed URL contained:
 https://www.videoindexer.ai/embed/player/28d53fb324
 ```
 Embedding the widget results in this:
-<video src="https://www.videoindexer.ai/embed/player/28d53fb324"></video>
+<iframe src="https://www.videoindexer.ai/embed/player/28d53fb324"></iframe>
+
+The second widget is more interesting. It provides access to (some of) the actual analysis results in a user firendly manner.
+
+For a final time, we build a GET request with the ID. This is almost identical to the previous API requests, however, this time we add "/InsightsWidgetUrl" to the end of the API request URL:
+```javascript
+// id would have been updated/set by the File Upload API call.
+var id = "28d53fb324";
+
+var insightOptions = {
+            url: "https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns/" + id + "/InsightsWidgetUrl",
+            headers: {
+                "Ocp-Apim-Subscription-Key": APIkey
+            },
+            method: "GET",
+        };
+```
+
+And a callback to handle the data:
+```javascript
+function VideoIndexerInsightCallback(error, response, body) {
+        if (!error && response.statusCode < 400) {
+            var vi = JSON.parse(body);
+            console.log(vi);
+
+            // Here, you can do whatever you wish with the returned data.
+            var context = {};
+
+            context.url = vi;
+            res.render('insightembedlink', context);
+        }
+        else {
+            var vi = JSON.parse(body);
+            console.log(vi);
+        }
+```
+
+Then send the request:
+```javascript
+request(insightOptions, VideoIndexerInsightCallback);
+```
+
+The response will be a single line string with the insights embed URL contained:
+```url
+https://www.videoindexer.ai/embed/insights/28d53fb324
+```
+
+Embedding the widget results in this:
+<iframe src="https://www.videoindexer.ai/embed/insights/28d53fb324"></iframe>
 
 <form action="https://jaegermeiste.github.io/MSCognitiveServicesHowToGuide/GetWidgets">
     <input type="submit" value="Get Widget URLs >" />
